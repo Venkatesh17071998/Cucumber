@@ -1,0 +1,333 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verifying adactin with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18186936500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on facebook page",
+            "match": {
+              "location": "LoginPageStepClass.user_is_on_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1149915800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"Abcdefghi123\" and \"VT0R80\" click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abcdefghi123\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"VT0R80\"",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginPageStepClass.user_should_enter_and_click_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1644104000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should search hotels \"Sydney\",\"Hotel Creek\",\"Double\", \"2 - Two\",\"16/11/2021\",\"17/11/2021\",\"2 - Two\"and \"2- Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"16/11/2021\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"17/11/2021\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2- Two\"",
+                  "offset": 108
+                }
+              ],
+              "location": "LoginPageStepClass.user_should_search_hotels_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 698984200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should select hotel and click continue",
+            "match": {
+              "location": "LoginPageStepClass.user_should_select_hotel_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 865986800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should book a hotel have to enter \"Venkatesh\",\"M\",\"Thoraipakkam\",\"1234123412341234\",\"VISA\",\"May\", \"2022\"and \"123\" to book a hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Venkatesh\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Thoraipakkam\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1234123412341234\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginPageStepClass.user_should_book_a_hotel_have_to_enter_and_to_book_a_hotel(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5849700300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should get the order id",
+            "match": {
+              "location": "LoginPageStepClass.user_should_get_the_order_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verifying adactin with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13344978300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on facebook page",
+            "match": {
+              "location": "LoginPageStepClass.user_is_on_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1257981400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"Abcdefghi123\" and \"VT0R80\" click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abcdefghi123\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"VT0R80\"",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginPageStepClass.user_should_enter_and_click_login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1478270600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should search hotels \"Sydney\",\"Hotel Creek\",\"Double\", \"2 - Two\",\"16/11/2021\",\"17/11/2021\",\"2 - Two\"and \"2- Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"16/11/2021\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"17/11/2021\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2- Two\"",
+                  "offset": 108
+                }
+              ],
+              "location": "LoginPageStepClass.user_should_search_hotels_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 808499500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should select hotel and click continue",
+            "match": {
+              "location": "LoginPageStepClass.user_should_select_hotel_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 875461300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should book a hotel have to enter \"Venkatesh\",\"M\",\"Thoraipakkam\",\"1234123412341234\",\"VISA\",\"May\", \"2022\"and \"123\" to book a hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Venkatesh\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Thoraipakkam\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1234123412341234\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginPageStepClass.user_should_book_a_hotel_have_to_enter_and_to_book_a_hotel(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5751285400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should get the order id",
+            "match": {
+              "location": "LoginPageStepClass.user_should_get_the_order_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin Details",
+    "description": "",
+    "id": "verifying-adactin-details",
+    "keyword": "Feature",
+    "uri": "Features/LoginPage.feature",
+    "tags": []
+  }
+]
